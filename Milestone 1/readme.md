@@ -7,7 +7,7 @@
 
 ## Programming
 - added ZumoShield library to the project code ```Sketch > Include Library > Contributed Libraries > ZumoShield```
-- first line of loop delays function so I have time to unplug and set the robot down
+- first line of loop delays function so I have time to unplug and set the robot down (oops later I figured out I can wait to turn the thing on haha)
 - left and right motors set to max. speed (400)
 - stops indefinitely after 3 seconds
 ```
