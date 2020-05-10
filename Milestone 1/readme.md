@@ -1,2 +1,32 @@
 # Milestone 1
-## Get the Robot to Move
+#### Getting the Robot to Move 4 ft
+------
+
+## Setup
+- Attached the servo shield to the pre-assembled robot base
+- Installed the ZumoShield library on the Arduino IDE, added to project code
+
+## Programming
+```
+#include <ZumoShield.h>
+
+ZumoMotors motors;
+
+void setup() {
+  
+}
+
+void loop() {
+  delay(1000);
+  motors.setLeftSpeed(400);
+  motors.setRightSpeed(400);
+  delay(3000);
+  motors.setLeftSpeed(0);
+  motors.setRightSpeed(0);
+  while(true){
+    
+  }
+
+}
+```
+
