@@ -4,10 +4,12 @@
 
 ## Setup
 - Attached the servo shield to the pre-assembled robot base
-- Installed the ZumoShield library on the Arduino IDE ```Tools > Manage Libraries``` search for ```ZumoShield```
+- Installed the ZumoShield library on the Arduino IDE 
+      ```Tools > Manage Libraries``` search for ```ZumoShield```
 
 ## Programming
-- added ZumoShield library to the project code ```Sketch > Include Library > Contributed Libraries > ZumoShield```
+- added ZumoShield library to the project code 
+      ```Sketch > Include Library > Contributed Libraries > ZumoShield```
 - 
 ```
 #include <ZumoShield.h>
