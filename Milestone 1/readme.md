@@ -35,3 +35,4 @@ void loop() {
 
 ## Milestone Completion
 
+![alt text](https://github.com/renaalee/robot_comp_remote_2020/blob/master/Milestone%201/IMG_3214.MOV)
