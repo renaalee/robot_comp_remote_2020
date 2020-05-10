@@ -5,6 +5,7 @@
 - 4 ft long line on the ground for the robot to follow
 
 ## Programming
+```
 void setup() {
   int i;
   int spin_direction = 1;
@@ -36,6 +37,6 @@ void loop() {
     follow_line();
   }
 }
-
+```
 ## Milestone Completion
 https://drive.google.com/file/d/1ecU7MPx-Q_IZGPZOMbu8Xvlg-8qhru6x/view?usp=sharing
