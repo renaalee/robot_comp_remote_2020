@@ -4,13 +4,13 @@
 
 ## Setup
 - Attached the servo shield to the pre-assembled robot base
-- Installed the ZumoShield library on the Arduino IDE 
-      - ```Tools > Manage Libraries``` search for ```ZumoShield```
+- Installed the ZumoShield library on the Arduino IDE ```Tools > Manage Libraries``` search for ```ZumoShield```
 
 ## Programming
-- added ZumoShield library to the project code 
-      - ```Sketch > Include Library > Contributed Libraries > ZumoShield```
-- 
+- added ZumoShield library to the project code ```Sketch > Include Library > Contributed Libraries > ZumoShield```
+- first line of loop delays function so I have time to unplug and set the robot down
+- left and right motors set to max. speed (400)
+- stops indefinitely after 3 seconds
 ```
 #include <ZumoShield.h>
 
@@ -33,4 +33,6 @@ void loop() {
 
 }
 ```
+
+## Milestone Completion
 
