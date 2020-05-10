@@ -1,5 +1,5 @@
 # Milestone 1
-#### Getting the Robot to Move 4 ft
+> Create your own code that moves the Zumo at least 4 feet.
 ------
 
 ## Setup
