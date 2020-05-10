@@ -1,6 +1,5 @@
 # Milestone 1
 > Create your own code that moves the Zumo at least 4 feet.
-------
 
 ## Setup
 - Attached the servo shield to the pre-assembled robot base
