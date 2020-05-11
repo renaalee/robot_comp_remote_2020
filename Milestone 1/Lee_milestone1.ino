@@ -10,9 +10,9 @@ void setup() {
 
 void loop() {
   delay(1000);
-  motors.setSpeeds(400,400)
+  motors.setSpeeds(400,400);
   delay(3000);
-  motors.setSpeeds(0,0)
+  motors.setSpeeds(0,0);
   while(true){
   }
 }
