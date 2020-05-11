@@ -39,6 +39,7 @@ int NO_INTERSECTION = 7;
 
 double PROPORTION_GAIN = 0.3;
 double DERIVATIVE_GAIN = 3;
+//double INTEGRAL_GAIN = 0.01
 int last_error = 0;
 
 void follow_line(){
