@@ -28,8 +28,10 @@ int BASE_SPEED = 300;
 double PROPORTION_GAIN = 0.3;
 double DERIVATIVE_GAIN = 3;
 int last_error = 0;
+
 void loop() {
   int line_posn = linesensors.readLine(sensor_vals);
+  Serial.println(line_posn) // to check on line reading from sensors
   int error = line_posn - 2500;
   int delta_e = error - last_error;
   int left_speed = BASE_SPEED + PROPORTION_GAIN*error + DERIVATIVE_GAIN*delta_e;
