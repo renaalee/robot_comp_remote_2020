@@ -1,8 +1,8 @@
 # Milestone 5
 > Get the Zumo to solve a maze with branching.
 
-## Setup
+## Program
+- I used the example code but kept the modifications to speed and line detection from my previous code
 
-## Programming 
-
-## Milestone Completion
+## Milestone Completion Video
+https://drive.google.com/file/d/1shp5CRRRsG9ILuo81mrHQrOMe1WBAt0h/view?usp=sharing
