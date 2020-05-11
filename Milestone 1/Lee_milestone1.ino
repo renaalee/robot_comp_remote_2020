@@ -5,19 +5,14 @@
 
 ZumoMotors motors;
 
-void setup() {
-  
+void setup() { 
 }
 
 void loop() {
   delay(1000);
-  motors.setLeftSpeed(400);
-  motors.setRightSpeed(400);
+  motors.setSpeeds(400,400)
   delay(3000);
-  motors.setLeftSpeed(0);
-  motors.setRightSpeed(0);
+  motors.setSpeeds(0,0)
   while(true){
-    
   }
-
 }
