@@ -3,6 +3,7 @@
 
 ## Setup
 - Attached the servo shield to the pre-assembled robot base
+- Googled the basics of Zumo Motor Shield from a tutorial on the provided site. 
 - Installed the ZumoShield library on the Arduino IDE ```Tools > Manage Libraries``` search for ```ZumoShield```
 
 ## Programming
@@ -16,18 +17,12 @@
 ZumoMotors motors;
 
 void setup() {
-  
 }
 
 void loop() {
   delay(1000);
-  motors.setLeftSpeed(400);
-  motors.setRightSpeed(400);
-  delay(3000);
-  motors.setLeftSpeed(0);
-  motors.setRightSpeed(0);
+  motors.setSpeeds(200,200)
   while(true){
-    
   }
 
 }
