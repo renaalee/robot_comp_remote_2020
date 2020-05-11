@@ -1,8 +1,10 @@
 # Milestone 3
 > Get the Zumo to follow a line along 2' x 2' square. (Create a square using the tape, 2ft on each side. Place the Zumo anywhere on the square and get it to follow the square for at least a full lap.)
 
-## Comments
+## Setup
 - There were some dark splotches on my floor that were confusing the robot, that's why there are pieces of paper on the edges (sorry).
+
+## Comments
 - increased base speed and adjusted proportion gain from example code
 - Pretty much same code as milestone 2
 
