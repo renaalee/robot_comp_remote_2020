@@ -24,7 +24,7 @@ void turn_right() {
   }  
 }
 ```
-- This made for much sharper turns than before. 
+- This made for much sharper turns than before. This is the 'reactive' approach to making turns. I found that increasing the base speed makes the turns a little less sharp but I think it saves time in the end.  
 
 ## Milestone Completion
 https://drive.google.com/file/d/1OTnBppJsHbp-zZnEWt0c941LcNkHhTzI/view?usp=sharing
