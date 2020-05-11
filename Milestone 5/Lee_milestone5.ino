@@ -7,12 +7,12 @@ ZumoReflectanceSensorArray linesensors(QTR_NO_EMITTER_PIN);
 void setup() {
   int i;
   int spin_direction = 1;
-  motors.setSpeeds(80*spin_direction, -80*spin_direction);
+  motors.setSpeeds(90*spin_direction, -90*spin_direction);
   for(i = 0; i<100; i++){
     linesensors.calibrate();
     if(i%50 == 25){ // every 50 loops, starting on loop 25...
       spin_direction = -spin_direction;
-      motors.setSpeeds(80*spin_direction, -80*spin_direction);
+      motors.setSpeeds(90*spin_direction, -90*spin_direction);
     }
     delay(20);
   }
@@ -129,7 +129,6 @@ void u_turn() {
 void solved(){
   motors.setSpeeds(0,0);
   while(true){
-    // do nothing!
   }
 }
 
@@ -177,3 +176,4 @@ void loop() {
     solved();
   }
 }
+
