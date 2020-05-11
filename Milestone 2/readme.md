@@ -3,6 +3,9 @@
 
 ## Setup
 - 4 ft long line on the ground for the robot to follow
+- Added Wire library to my project code at the top ```Sketch > Include Library > Wire``` to set up reading the IR sensors on the bottom of the robot.
+- Went with PD control method from tutorial. I did try tinkering around with the bang-bang method but I couldn't get it to work, probably was finicky because I was working outside on a very dusty surface. I also could not figure out how to use the sprintf function.
+- Seems pretty smooth and quick the way I have it now but no way to tell how it'll do with kinks in the track (until next milestone). 
 
 ## Programming
 ```
